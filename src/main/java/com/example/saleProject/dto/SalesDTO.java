@@ -12,6 +12,8 @@ import lombok.NoArgsConstructor;
 public class SalesDTO {
 
     @NotBlank
+    private String id;
+    @NotBlank
     private String date;
     @NotBlank
     private String idType;

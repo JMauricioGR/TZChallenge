@@ -14,6 +14,8 @@ import lombok.NoArgsConstructor;
 public class ProductsDTO {
 
     @NotBlank
+    private String id;
+    @NotBlank
     private String name;
     private String inventory;
     private Boolean enabled;
